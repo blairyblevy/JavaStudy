@@ -1,4 +1,4 @@
-package bSLS;
+
 import org.opentutorials.iot.DimmingLights;
 import org.opentutorials.iot.Elevator;
 import org.opentutorials.iot.Lighting;
@@ -12,8 +12,8 @@ public class IOT {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String id = JOptionPane.showInputDialog("¾ÆÀÌµğ¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
-		String bright = JOptionPane.showInputDialog("¹à±â¸¦ ÀÔ·ÂÇÏ¼¼¿ä");
+		String id = JOptionPane.showInputDialog("ì•„ì´ë””ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
+		String bright = JOptionPane.showInputDialog("ë°ê¸°ë¥¼ ì…ë ¥í•˜ì„¸ìš”");
 		
 		
 		Elevator myElevator = new Elevator(id);
