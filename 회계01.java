@@ -21,4 +21,6 @@ public class App1 {
 		System.out.println("Devidend 1 = " + devidend1);
 		System.out.println("Devidend 2 = " + devidend2);
 		System.out.println("Devidend 3 = " + devidend3);
+		
+		
 }
